@@ -1,0 +1,36 @@
+# Build directories
+build/
+cmake-build-debug/
+cmake-build-release/
+dist/
+out/
+
+# Generated files
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies
+*.log
+
+# Project specific
+ip.txt
